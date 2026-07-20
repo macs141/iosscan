@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Microsoft Support</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background-animation">
+<div class="circle c1"></div>
+<div class="circle c2"></div>
+<div class="circle c3"></div>
+<div class="circle c4"></div>
+</div>
+
+<header>
+
+<div class="logo">
+
+<img src="Mit.PNG" alt="Logo">
+
+<h1>Microsoft support</h1>
+
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#">Dashboard</a>
+
+<a href="#">Analysis</a>
+
+<a href="#">Report</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Network Analysis  Portal</h2>
+
+<p>
+
+server security Interface
+
+</p>
+
+</section>
+
+<div class="container">
+
+<div class="form-card">
+
+<h2>User Information</h2>
+
+<form id="scanForm">
+
+<div class="input-box">
+
+<label>Name</label>
+
+<input
+type="text"
+id="name"
+placeholder="Enter Full Name"
+required>
+
+</div>
+
+<div class="input-box">
+
+<label>Email</label>
+
+<input
+type="email"
+id="email"
+placeholder="Enter Email"
+required>
+
+</div>
+
+<div class="input-box">
+
+<label>ipv6 Number</label>
+
+<input
+type="text"
+id="ipv6"
+placeholder="ipv6 Number"
+required>
+
+</div>
+
+<div class="input-box">
+
+<label>Phone Number</label>
+
+<input
+type="text"
+id="phone"
+placeholder="Phone Number"
+required>
+
+</div>
+
+<div class="input-box">
+
+<label>ip address </label>
+
+<input
+type="text"
+id="ip address"
+placeholder="ip address"
+required>
+
+</div>
+
+<button
+type="button"
+id="runScan">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+Run  Scan
+
+</button>
+
+</form>
+
+</div>
+
+<div class="scan-card">
+
+<h2>
+
+Command Prompt
+
+</h2>
+
+<div class="terminal">
+
+<div class="terminal-top">
+
+<div class="dot red"></div>
+
+<div class="dot yellow"></div>
+
+<div class="dot green"></div>
+
+<span>
+
+Microsoft Windows Command Prompt
+
+</span>
+
+</div>
+
+<div
+class="terminal-body"
+id="terminalBody">
+
+<pre id="terminalText">
+
+Microsoft Windows [Version 10.0.26100]
+
+(c) Microsoft Corporation.
+
+scan Ready...
+
+>
+
+</pre>
+
+</div>
+
+</div>
+
+<div class="progress-area">
+
+<div class="progress">
+
+<div
+class="progress-bar"
+id="progressBar">
+
+</div>
+
+</div>
+
+<div class="timer">
+
+Time Remaining :
+
+<span id="timer">
+
+60
+
+</span>
+
+sec
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<section
+class="report-section"
+id="reportSection">
+
+<h2>
+
+Security Analysis Report
+
+</h2>
+
+<div class="report-card">
+
+<table>
+
+<tr>
+
+<td>Name</td>
+
+<td id="r_name"></td>
+
+</tr>
+
+<tr>
+
+<td>Email</td>
+
+<td id="r_email"></td>
+
+</tr>
+
+<tr>
+
+<td>ipv6 Number</td>
+
+<td id="r_ttn"></td>
+
+</tr>
+
+<tr>
+
+<td>Phone Number</td>
+
+<td id="r_phone"></td>
+
+</tr>
+
+<tr>
+
+<td>ip address Number</td>
+
+<td id="r_tp"></td>
+
+</tr>
+
+<tr>
+
+<td>Status</td>
+
+<td style="color:lime;">
+
+Completed
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>Security Level</td>
+
+<td>
+
+9%
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>Scan Time</td>
+
+<td>
+
+60 Seconds
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+</section>
+<section class="microsoft-support">
+
+    <h2>Global microsoft  support (security Data)</h2>
+
+    <p class="demo-note">
+        security data for microsoft customer only.
+    </p>
+
+    <div class="table-wrapper">
+
+        <table class="monitor-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Country</th>
+                    <th>City</th>
+                    <th>Node ID</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr><td>United States</td><td>New York</td><td>NODE-10451</td></tr>
+                <tr><td>Canada</td><td>Toronto</td><td>NODE-11542</td></tr>
+                <tr><td>Mexico</td><td>Mexico City</td><td>NODE-16455</td></tr>
+                <tr><td>Brazil</td><td>São Paulo</td><td>NODE-18542</td></tr>
+                <tr><td>Argentina</td><td>Buenos Aires</td><td>NODE-17351</td></tr>
+                <tr><td>United Kingdom</td><td>London</td><td>NODE-20354</td></tr>
+                <tr><td>France</td><td>Paris</td><td>NODE-21478</td></tr>
+                <tr><td>Germany</td><td>Berlin</td><td>NODE-22631</td></tr>
+                <tr><td>Italy</td><td>Rome</td><td>NODE-23482</td></tr>
+                <tr><td>Spain</td><td>Madrid</td><td>NODE-24571</td></tr>
+                <tr><td>Portugal</td><td>Lisbon</td><td>NODE-25834</td></tr>
+                <tr><td>Netherlands</td><td>Amsterdam</td><td>NODE-26718</td></tr>
+                <tr><td>Belgium</td><td>Brussels</td><td>NODE-27149</td></tr>
+                <tr><td>Switzerland</td><td>Zurich</td><td>NODE-28764</td></tr>
+                <tr><td>Norway</td><td>Oslo</td><td>NODE-29485</td></tr>
+                <tr><td>Sweden</td><td>Stockholm</td><td>NODE-30155</td></tr>
+                <tr><td>Finland</td><td>Helsinki</td><td>NODE-31942</td></tr>
+                <tr><td>Russia</td><td>Moscow</td><td>NODE-32741</td></tr>
+                <tr><td>India</td><td>New Delhi</td><td>NODE-33214</td></tr>
+                <tr><td>Pakistan</td><td>Islamabad</td><td>NODE-34982</td></tr>
+                <tr><td>China</td><td>Beijing</td><td>NODE-35671</td></tr>
+                <tr><td>Japan</td><td>Tokyo</td><td>NODE-36184</td></tr>
+                <tr><td>South Korea</td><td>Seoul</td><td>NODE-37991</td></tr>
+                <tr><td>Singapore</td><td>Singapore</td><td>NODE-38452</td></tr>
+                <tr><td>Thailand</td><td>Bangkok</td><td>NODE-39612</td></tr>
+                <tr><td>Indonesia</td><td>Jakarta</td><td>NODE-40285</td></tr>
+                <tr><td>Australia</td><td>Sydney</td><td>NODE-41549</td></tr>
+                <tr><td>New Zealand</td><td>Auckland</td><td>NODE-42163</td></tr>
+                <tr><td>South Africa</td><td>Cape Town</td><td>NODE-43984</td></tr>
+                <tr><td>Egypt</td><td>Cairo</td><td>NODE-44731</td></tr>
+                <tr><td>UAE</td><td>Dubai</td><td>NODE-45892</td></tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+<section class="statistics">
+
+    <div class="stat-card">
+        <h3>Number of Virus</h3>
+        <span>78</span>
+    </div>
+
+    <div class="stat-card">
+        <h3>Number of Hacker</h3>
+        <span>234</span>
+    </div>
+
+    <div class="stat-card">
+        <h3>Security Level</h3>
+        <span>9%</span>
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="footer-content">
+
+        <h2>Security Project</h2>
+
+        <p>
+            security Interface | windows Prototype
+        </p>
+
+        <div class="social">
+
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 Microsoft support. All Rights Reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
